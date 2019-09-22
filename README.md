@@ -1,2 +1,6 @@
 # Semi-Auto-Instagram-Poster
-A python program that saves images from Instagram that contain certain hashtags. Then after deleting the ones the user doesn't want , the program posts them at intervals.
+### A python program that saves images from Instagram that contain certain hashtags. Then after deleting the ones the user doesn't want, the program posts them at intervals.
+# How To Use
+#### Install these dependencies - selenium, autoit, PIL, urllib, bs4 and the firefox web-browser. Edit the hashtags.txt by putting the hashtags you want to take from, the more hashtags the slower the program. Run the get_images.py file and enter the number of photos you want. Then sort through the images and delete all the photos you wouldnt want posted on your account. Run the post.py file. And enter the interval between posts, i recommend 4 hours at least for a meme page. Then enter your account details. The progrogram will then post the images and follow people assiociated with your hashtags. Then slowly over time, unfollow these people. You can view the people the program has followed in the folledAccounts.txt file.
+# What I learnt
+#### With this program i developed my skills with requests and BS4. I also learnt how to find elements by thier xpath or css selector. I also learnt how to use autoit to help interact with windows apps so that files could be uploaded. I also learnt how to resize and and combine images with PIL.
